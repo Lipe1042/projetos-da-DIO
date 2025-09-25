@@ -1,19 +1,20 @@
-# Classificador de nivel de heroi 
+# Classificador de nivel de heroi
 
-# variaveis 
+
+# variaveis
+
 nomedoheroi = "Felipão"
-
-quantidadedexp = 4000
-
-nivel = "" 
+quantidadedexp = 5001
+nivel = ""
 
 
-# estrutura de decisão 
-if quantidadedexp < 1000: 
+# estrutura de decisão
+
+if quantidadedexp < 1000:
     nivel = "Ferro"
 
 
-elif quantidadedexp >= 1001 and quantidadedexp <= 2000:
+elif quantidadedexp >= 1000 and quantidadedexp <= 2000:
     nivel = "Bronze"
 
 
@@ -21,7 +22,7 @@ elif quantidadedexp >= 2001 and quantidadedexp <= 5000:
     nivel = "Prata"
 
 
-elif quantidadedexp >= 6001 and quantidadedexp <= 7000:
+elif quantidadedexp >= 5001 and quantidadedexp <= 7000:
     nivel = "Ouro"
 
 
@@ -41,10 +42,8 @@ elif quantidadedexp >= 10001:
     nivel = "Radiante"
 
 
-
-# resultado 
+# resultado
 print(f"O Herói de nome {nomedoheroi} está no nível de {nivel}")
-
 
 
 
